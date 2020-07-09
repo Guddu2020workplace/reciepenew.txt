@@ -24,6 +24,6 @@ while game_running == True:
 
 
     else:
-        print('Invalid input')  
+        print('Invalid request')
     if player['health'] <= 0:
         game_running = False
